@@ -14,8 +14,11 @@
     <script src="https://kit.fontawesome.com/80accd21c0.js" crossorigin="anonymous"></script>
 
     <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
-    
     <!-- CSS File -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -23,7 +26,80 @@
 <body>
     <!-- Header section -->
     <header>
-
+        <!-- NavBar section -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container py-2">
+                <a class="navbar-brand fs-2 fw-bolder" href="#">PartyMaker</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto text-center fs-6 text-dark fw-normal">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">About Us</a>
+                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End NavBar section -->
+        <!-- Carousel section -->
+        <section>
+            <div class="continer">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/banner.png" height="584px" class="d-block w-100 text-center" alt="Image">
+                            <div class="carousel-caption d-md-block">
+                                <h5 class="fs-1">The perfect venue for your
+                                   <br> next event</h5>
+                                <p>Welcome and open yourself to your truest love this year with us! With the Release Process.</p>
+                                <a class="btn btn-light text-primary py-2 px-5 fw-bolder my-2" href="#">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/banner-2.png" height="584px" class="d-block w-100" alt="Image">
+                            <div class="carousel-caption d-md-block">
+                                <h5 class="fs-1">Let’s Plan Your Wedding in
+                                    <br> next event</h5>
+                                <p>Every wedding has a different style and theme as each wedding celebrates the union of a unique relationship. Let your wedding captions highlight your personality and wedding style.</p>
+                                <a class="btn btn-light text-primary py-2 px-5 fw-bolder my-2" href="#">Book Now</a>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/banner-3.png" height="584px" class="d-block w-100" alt="Image">
+                            <div class="carousel-caption d-md-block">
+                                <h5 class="fs-1">Let's Celebrate Your dreamy <br>Weeding</h5>
+                                <p>If you’re looking for a cozy and intimate celebration, a backyard wedding is absolutely the way to go</p>
+                                <a class="btn btn-light text-primary py-2 px-5 fw-bolder my-2" href="#">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <!-- End Carousel section -->
     </header>
     <!-- End Header section -->
     <!-- Main Section -->
